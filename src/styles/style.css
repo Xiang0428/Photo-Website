@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.loadmore button {
+  padding: 1rem;
+  font-size: 24px;
+  background-color: rgb(48, 101, 128);
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+nav {
+  background-color: rgb(48, 101, 128);
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+}
+nav ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.search input,
+.search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border-radius: 10px;
+}
+.search input {
+  margin-right: 2rem;
+  background-color: rgb(48, 101, 128);
+  color: white;
+  border: 3px solid rgb(24, 24, 25);
+}
+.search button {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  width: 52px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 101, 128);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(48, 101, 128);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  margin: 1rem;
+  width: 400px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}/*# sourceMappingURL=style.css.map */
